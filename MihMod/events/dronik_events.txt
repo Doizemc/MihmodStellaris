@@ -1,0 +1,73 @@
+namespace = dronik
+country_event = {
+	id = dronik.1
+	title = "dronik.1.name"
+	desc = "dronik.1.desc"
+	picture = GFX_evt_satellite_in_orbit
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_smart_wick
+	     }									
+	option = {
+		name = "dronik.assemble"
+		set_global_flag = dronik_born
+		country_event = {
+			id = dronik.2
+			days = 5
+		}
+	}
+}
+country_event = {
+	id = dronik.2
+	title = "dronik.borning.name"
+	desc = "dronik.borning.desc"
+	picture = GFX_evt_satellite_in_orbit
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		has_global_flag = dronik_born
+	}
+	option = {
+		name = "dronik.assemble"
+		begin_event_chain = {
+			event_chain = dronik_legs_chain
+		}
+	}
+}
+
+fleet_event = {
+	id = dronik.3
+	title = "dronik.legs_found.name"
+	desc = "dronik.legs_found.desc"
+	is_triggered_only = yes
+	option = {
+		name = "dronik.leg"
+		owner = {
+			add_event_chain_counter = {
+				event_chain = dronik_legs_chain
+				counter = dronik_legs_found
+				amount = 1
+			}
+		}
+		
+	}
+}
+
+
+country_event = {
+	id = dronik.4
+	title = "dronik.legs_complite.name"
+	desc = "dronik.legs_complite.desc"
+	fire_only_once = yes
+	trigger = {
+		has_completed_event_chain_counter = {
+			event_chain = dronik_legs_chain
+			counter = dronik_legs_found
+		}	
+	}
+	option = {
+		name = "dronik.legs_final.name"
+		end_event_chain = dronik_legs_chain
+	}
+}

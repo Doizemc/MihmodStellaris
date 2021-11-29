@@ -1,0 +1,221 @@
+﻿### vic
+### Created by Doizemc
+
+VIC = {
+	category = "Грибовики"
+	ship_names = {
+
+		generic = {
+			
+		}
+
+		corvette = {
+			Клаузура
+		}
+
+		destroyer = {
+			Искиз-идеи
+		}
+
+		cruiser = {
+			Искиз-проект
+		}
+
+		battleship = {
+			Проект
+			
+		}
+
+		titan = {
+			Рендер
+		}
+
+		colossus = {
+			Диплом
+		}
+
+		science = {
+			Группа
+		}
+
+		colonizer = {
+			Виковоз
+		}
+
+		constructor = {
+			Ноут
+		}
+
+		transport = {
+			Виковоз
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Армада" 
+		}
+		sequential_name = "%R% Вичья Армада"
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%O% Defense Force"
+		}
+
+		machine_assault_1 = {
+			sequential_name = "%O% Strike Force"
+		}
+
+		machine_assault_2 = {
+			sequential_name = "%O% Strike Force"
+		}
+
+		machine_assault_3 = {
+			sequential_name = "%O% Strike Force"
+		}
+
+		defense_army = {
+			sequential_name = "%O% Defense Force"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Strike Force"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Thrall Division"
+		}
+
+		clone_army = {
+			sequential_name = "%O% Clone Division"
+		}
+
+		undead_army = {
+			sequential_name = "%O% Dread Division"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Robotic Strike Force"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Robotic Defense Force"
+		}
+
+		psionic_army = {
+			sequential_name = "%R% Psi-Force"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Force"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Biomorph Force"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Force"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Mechanized Occupiers"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Домик-вика Логово-вика Обитель-вика Резиденция-вика Дача-вика Цитадель-вика Мечеть-вика Пантеон-вика Парфенон-вика Храм-вика
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				ясик грибовиков котовик кусачий кротовик незрячий ящервик цепкачий рыбовик молчачий 
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+				Globbelius Glolindus Hortius Dabberidook Lumelius Rolgur Tumpus Gjorpus Schmortis Pomplus
+			}
+
+			regnal_second_names = {
+			}
+		}
+	}
+}
