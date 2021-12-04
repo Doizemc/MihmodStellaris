@@ -15,6 +15,7 @@ country_event = {
 		country_event = {
 			id = dronik.2
 			days = 5
+			
 		}
 	}
 }
@@ -69,5 +70,7 @@ country_event = {
 	option = {
 		name = "dronik.legs_final.name"
 		end_event_chain = dronik_legs_chain
+		add_relic = r_droniks_trophy
+		
 	}
 }

@@ -3,8 +3,8 @@ dronik_leg_cave = {
 	desc = dronik_leg_cave.desc
 	picture = GFX_evt_asteroid_field
 	weight = 0
-	stages = 1
-	max_instances = 3
+	stages = 3
+	max_instances = 1
 	allow = {
 		is_ship_class = shipclass_science_ship
 		exists = leader
@@ -14,6 +14,18 @@ dronik_leg_cave = {
 		default_site_visible_trigger = yes
 	}
 	
+	
+	stage = {
+		difficulty = 1
+		icon = GFX_archaeology_runes_C1
+		event = dronik.3
+	}
+
+	stage = {
+		difficulty = 1
+		icon = GFX_archaeology_runes_C1
+		event = dronik.3
+	}
 	
 	stage = {
 		difficulty = 1

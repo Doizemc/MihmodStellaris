@@ -1,0 +1,26 @@
+opinion_wick_vs_kostya = {
+	trigger = {
+		has_trait = trait_smart_wick
+		FROM = {
+			has_trait = trait_greedy
+		}
+	}
+	opinion = {
+		base = -1000
+	}
+
+}
+
+opinion_kostya_vs_wick = {
+
+	trigger = {
+		has_trait = trait_greedy
+		FROM = {
+			has_trait = trait_smart_wick
+		}
+	}
+	opinion = {
+		base = -1000
+	}
+
+}

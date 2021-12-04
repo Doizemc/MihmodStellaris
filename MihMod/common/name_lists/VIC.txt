@@ -199,22 +199,26 @@ VIC = {
 		default = {
 			# A complete name
 			full_names = {
-				ясик грибовиков котовик кусачий кротовик незрячий ящервик цепкачий рыбовик молчачий 
+				Ясик 
 			}
 
 			# Always combined with a second name
 			first_names = {
+				Кусачий Мини Грибо Ворчливый Злобно Нагло Крото Кисо Косте Умно Хитро Мини Цобака Лисий Старый Молодой Курячий Лапа Сонный Зевачий 
 			}
 
 			# Always combined with a first name
 			second_names = {
+				Вик
 			}
 
 			regnal_first_names = {
-				Globbelius Glolindus Hortius Dabberidook Lumelius Rolgur Tumpus Gjorpus Schmortis Pomplus
+				Грибовиков
+				
 			}
 
 			regnal_second_names = {
+				
 			}
 		}
 	}

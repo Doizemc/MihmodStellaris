@@ -1,12 +1,22 @@
 trait_smart_wick = {
 	cost = 2
-	potential_crossbreeding_chance = 1.0
-	opposites = { "trait_nerve_stapled" "trait_erudite" "trait_enigmatic_intelligence_poor" }
+	potential_crossbreeding_chance = 0
+	randomized = no
+	opposites = { "trait_nerve_stapled" "trait_erudite" "trait_enigmatic_intelligence_poor"  "trait_greedy"}
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	modifier = {
 		planet_jobs_engineering_research_produces_mult = 0.11
 		planet_jobs_physics_research_produces_mult = 0.11
 		planet_jobs_society_research_produces_mult = 0.11
 	}
+}
+
+trait_greedy = {
+	cost = 2
+	randomized = 0
+	potential_crossbreeding_chance = 0
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	opposites = { "trait_hive_mind" "trait_smart_wick" }
+	custom_tooltip = TRAIT_THRIFTY_EFFECT
 }
 
