@@ -1,0 +1,67 @@
+"Грибовичья Империя"
+={
+	key="Грибовичья Империя"
+	ship_prefix=""
+	species={
+		class="FUN"
+		portrait="fun11"
+		name="Грибовик"
+		plural="Грибовики"
+		adjective="Грибовики"
+		species_bio="Маленькие, умные, ворчилыве  грибовики.Любят делать домики и очень не любят Костеклювов."
+		name_list="VIC"
+		gender=female
+		trait="trait_smart_wick"
+		trait="trait_talented"
+		trait="trait_quarrelsome"
+	}
+	name="Грибовичья Империя"
+	adjective="Грибовичья Империя"
+	authority="auth_imperial"
+	government="gov_illuminated_autocracy"
+	planet_name="Мархи"
+	planet_class="pc_tropical"
+	system_name="Vikus"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="Custom"
+			file="marhi.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"beige"
+			"brown"
+			"blue"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Викулькен"
+		portrait="fun11"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title_female="Главный Гриб"
+		heir_title_female="Масленок "
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_functional_architecture"
+		"civic_technocracy"
+	}
+	origin="origin_default"
+}
+

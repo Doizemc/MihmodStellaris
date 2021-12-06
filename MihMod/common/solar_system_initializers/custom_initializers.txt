@@ -26,6 +26,7 @@ dronikus_init = {
 		init_effect = {
 			create_archaeological_site = dronik_leg_cave
 		}
+		orbit_distance = { min = 40 max = 50 }
 	}
 
 }

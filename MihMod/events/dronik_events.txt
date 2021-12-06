@@ -7,10 +7,10 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {
-		has_trait = trait_smart_wick
+		is_ai = no
 	     }									
 	option = {
-		name = "dronik.assemble"
+		name = "dronik.wasborn"
 		set_global_flag = dronik_born
 		country_event = {
 			id = dronik.2
@@ -21,16 +21,15 @@ country_event = {
 }
 country_event = {
 	id = dronik.2
-	title = "dronik.borning.name"
-	desc = "dronik.borning.desc"
+	title = "dronik.grunting.name"
+	desc = "dronik.grunting.desc"
 	picture = GFX_evt_satellite_in_orbit
-	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {
 		has_global_flag = dronik_born
 	}
 	option = {
-		name = "dronik.assemble"
+		name = "dronik.death"
 		begin_event_chain = {
 			event_chain = dronik_legs_chain
 		}

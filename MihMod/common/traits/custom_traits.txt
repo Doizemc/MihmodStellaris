@@ -13,7 +13,7 @@ trait_smart_wick = {
 
 trait_greedy = {
 	cost = 2
-	randomized = 0
+	randomized = no
 	potential_crossbreeding_chance = 0
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	opposites = { "trait_hive_mind" "trait_smart_wick" }
